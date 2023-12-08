@@ -85,7 +85,7 @@ class _SearchStudentState extends State<SearchStudent> {
                     sliderValue = newValue;
                   });
                 },
-              )
+              ),
             ]),
             // ListView() // logic for added students details should be fetched here
           ],

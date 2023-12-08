@@ -30,6 +30,7 @@ class _SignInScreenState extends State<SignInScreen> {
               ),
               SizedBox(height: 35),
               TextField(
+                textAlign: TextAlign.center,
                 decoration: InputDecoration(
                   hintText: 'Email',
                   contentPadding:
@@ -41,6 +42,7 @@ class _SignInScreenState extends State<SignInScreen> {
               ),
               SizedBox(height: 16),
               TextField(
+                textAlign: TextAlign.center,
                 obscureText: true,
                 decoration: InputDecoration(
                   hintText: 'Password',
